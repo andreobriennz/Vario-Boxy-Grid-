@@ -1,0 +1,121 @@
+/*ALPHA DEVELOPMENT ONLY!!*/
+/*CARDS*/
+.card {
+  /*border-radius: 0.2em;*/
+  -webkit-border-radius: 0.2em;
+  -moz-border-radius: 0.2em;
+  -ms-border-radius: 0.2em;
+  border-radius: 0.2em; }
+
+.rounded-card {
+  /*border-radius: 0.4em;*/
+  -webkit-border-radius: 0.4em;
+  -moz-border-radius: 0.4em;
+  -ms-border-radius: 0.4em;
+  border-radius: 0.4em; }
+
+.max-screen-card {
+  width: 100vw;
+  height: 100vh; }
+
+.full-screen-card {
+  width: 95vw;
+  margin-top: 2.5vh;
+  margin-bottom: 2.5vh; }
+
+.half-screen-card {
+  width: 50vw;
+  height: 50vw; }
+
+.quarter-screen-card {
+  width: 25vw;
+  height: 25vw; }
+
+.eigth-screen-card {
+  width: 12.5vw;
+  height: 12.5vw; }
+
+.third-screen-card {
+  width: 33.33vw;
+  height: 33.33vw; }
+
+.fifth-screen-card {
+  width: 20vw;
+  height: 20vw; }
+
+.half-card {
+  width: 50%; }
+
+.third-card {
+  width: 33.33%; }
+
+.quarter-card {
+  width: 25%; }
+
+/*golden ratio card*/
+.full-golden-card {
+  width: 100vw;
+  height: 160vw; }
+
+.half-golden-card {
+  width: 50vw;
+  height: 80vw; }
+
+.third-golden-card {
+  width: 33.33vw;
+  height: 52.8vw; }
+
+/*BUTTONS*/
+button, .button, .square-button {
+  text-align: center; }
+
+.button {
+  outline: none;
+  border: solid 0.1em lightgrey;
+  background-color: white;
+  -webkit-border-radius: 0.2em;
+  -moz-border-radius: 0.2em;
+  -ms-border-radius: 0.2em;
+  border-radius: 0.2em;
+  transition: 1.4s; }
+  .button:hover {
+    border-radius: 100em; }
+
+.square-button {
+  outline: none;
+  border: none;
+  background-color: #2A93FA;
+  color: white; }
+  .square-button:hover {
+    border: solid;
+    border-color: #F9F9F9;
+    color: white;
+    transition: 0.1s; }
+
+.small-button {
+  min-width: 5em;
+  height: 2em; }
+
+.medium-button {
+  width: 130px;
+  height: 50px; }
+
+.large-button {
+  min-width: 260px;
+  height: 56px; }
+
+.medium-square-button {
+  min-width: 8em;
+  min-height: 7vh;
+  outline: none;
+  border: none;
+  background-color: #2A93FA;
+  font-size: 1.3em;
+  color: white;
+  cursor: pointer;
+  margin-left: calc(50vw - 4em); }
+  .medium-square-button:hover {
+    border: solid;
+    border-color: #F9F9F9;
+    color: white;
+    transition: 0.1s; }

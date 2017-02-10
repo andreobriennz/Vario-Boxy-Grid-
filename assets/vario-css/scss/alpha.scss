@@ -1,0 +1,162 @@
+$light-grey: #F9F9F9;
+$dark-grey: #292929;
+$magenta: #E91E63;
+$red: #F44336;
+$orange: #FF5C1A;
+$yellow: #FFD530;
+$amber: #FEC006;
+$emerald: #00B090;
+$medium-green: #2A93FA;
+$teal: #00AAB0;
+$light-blue: #00C6EA;
+$medium-blue: #2A93FA;
+$dark-blue: #156BC3;
+
+
+/*ALPHA DEVELOPMENT ONLY!!*/
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+/*CARDS*/
+.card {
+	/*border-radius: 0.2em;*/
+	@include border-radius(0.2em);
+}
+
+.rounded-card {
+	/*border-radius: 0.4em;*/
+	@include border-radius(0.4em);
+}
+
+.max-screen-card {
+	width: 100vw;
+	height: 100vh;
+}
+
+.full-screen-card {
+	width: 95vw;
+	margin-top: 2.5vh;
+	margin-bottom: 2.5vh;
+}
+
+.half-screen-card {
+	width: 50vw;
+	height: 50vw;
+}
+
+.quarter-screen-card {
+	width: 25vw;
+	height: 25vw;
+}
+
+.eigth-screen-card {
+	width: 12.5vw;
+	height: 12.5vw;
+}
+
+.third-screen-card {
+	width: 33.33vw;
+	height: 33.33vw;		
+}
+
+.fifth-screen-card {
+	width: 20vw;
+	height: 20vw;
+}
+
+.half-card {
+	width: 50%;
+}
+
+.third-card {
+	width: 33.33%;
+}
+
+.quarter-card {
+	width: 25%;
+}
+/*golden ratio card*/
+.full-golden-card {
+	width: 100vw;
+	height: 160vw;
+}
+
+.half-golden-card {
+	width: 50vw;
+	height: 80vw;
+}
+
+.third-golden-card {
+	width: 33.33vw;
+	height: 52.8vw;
+}
+
+
+
+/*BUTTONS*/
+button, .button, .square-button {
+	text-align: center;
+}
+
+.button {
+	outline: none;
+	border: solid 0.1em lightgrey;
+	background-color: white;
+	@include border-radius(0.2em);
+	transition: 1.4s;
+	&:hover {
+		border-radius: 100em;
+	}
+}
+
+.square-button {
+	outline:none;
+	border:none;
+	background-color: $medium-green;
+	color:white;
+	&:hover {
+		border:solid;
+		border-color: $light-grey;
+		color:white;
+		transition:0.1s;
+	}
+}
+
+.small-button {
+	min-width: 5em;
+	height:2em;
+}
+
+.medium-button {
+	width:130px;
+	height:50px;
+}
+
+.large-button {
+	min-width: 260px;
+	height: 56px;
+}
+
+.medium-square-button {
+	min-width: 8em;
+	min-height: 7vh;
+	outline: none;
+	border: none;
+	background-color: $medium-green;
+	font-size: 1.3em;
+	color: white;
+	cursor: pointer;
+	margin-left: calc(50vw - 4em);
+	&:hover {
+		border: solid;
+		border-color: $light-grey;
+		color: white;
+		transition: 0.1s;
+	}
+}
+
+

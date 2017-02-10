@@ -1,0 +1,101 @@
+/*Colors can be added with classes for html or variables for scss*/
+
+/*You can use the preset colours, or change the hex code to suit*/
+/*Adding colors in scss files with variables*/
+$light-grey: #F9F9F9;
+$dark-grey: #292929;
+$magenta: #E91E63;
+$red: #F44336;
+$orange: #FF5C1A;
+$yellow: #FFD530;
+$amber: #FEC006;
+$emerald: #00B090;
+$medium-green: #2A93FA;
+$teal: #00AAB0;
+$light-blue: #00C6EA;
+$medium-blue: #2A93FA;
+$dark-blue: #156BC3;
+
+/*Adding colors with classes in html*/
+/*TEXT COLORS*/
+.light-grey {
+	color: $light-grey;
+}
+.dark-grey {
+	color: $dark-grey;
+}
+.magenta {
+	color: $magenta;
+}
+.red {
+	color: $red;
+}
+.orange {
+	color: $orange;
+}
+.yellow {
+	color: $yellow;
+}
+.amber {
+	color: $amber;
+}
+.medium-green {
+	color: $medium-green;
+}
+.emerald {
+	color: $emerald;
+}
+.teal {
+	color: $teal;
+}
+.light-blue {
+	color: $light-blue;
+}
+.medium-blue {
+	color: $medium-blue;
+}
+.dark-blue {
+	color: $dark-blue;
+}
+
+
+/*BACKGROUND COLORS*/
+.light-grey-bg {
+	background-color: $light-grey;
+}
+.dark-grey-bg {
+	background-color: $dark-grey;
+}
+.magenta-bg {
+	background-color: $magenta;
+}
+.red-bg {
+	background-color: $red;
+}
+.orange-bg {
+	background-color: $orange;
+}
+.yellow-bg {
+	background-color: $yellow;
+}
+.amber-bg {
+	background-color: $amber;
+}
+.medium-green-bg {
+	background-color: $medium-green;
+}
+.emerald-bg {
+	background-color: $emerald;
+}
+.teal-bg {
+	background-color: $teal;
+}
+.light-blue-bg {
+	background-color: $light-blue;
+}
+.medium-blue-bg {
+	background-color: $medium-blue;
+}
+.dark-blue-bg {
+	background-color: $dark-blue;
+}

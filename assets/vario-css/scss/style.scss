@@ -1,0 +1,199 @@
+$light-grey: #F9F9F9;
+$dark-grey: #292929;
+$magenta: #E91E63;
+$red: #F44336;
+$orange: #FF5C1A;
+$yellow: #FFD530;
+$amber: #FEC006;
+$emerald: #00B090;
+$medium-green: #00B090;
+$teal: #00AAB0;
+$light-blue: #00C6EA;
+$medium-green: #2A93FA;
+$dark-blue: #156BC3;
+
+$sans-serif: "Roboto", "Helvetica", "Arial", sans-serif;
+$serif: serif;
+$script: script;
+
+
+
+/*BASIC BOILERPLATE */
+* {
+  font-family: $sans-serif;
+}
+body {
+  margin: 0;
+  background-color: $light-grey;
+
+}
+
+h1, h2, h3, h4, h5, h6, a, p {
+  padding: 0.5em;
+  color: $dark-grey;
+  max-width: 55em;
+  /*text-align: center;*/
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.414em;
+}
+
+a {
+  text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+  }
+}
+
+
+div.card {
+  min-width: 7em;
+}
+
+
+/*CUSTOM*/
+* {
+	text-align: center;
+}
+
+.logo:hover {
+  text-decoration: none;
+}
+/*NAV*/
+  nav.clear-nav {
+    position: fixed;
+  }
+  nav.clear-nav a {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  img.clear-nav {
+
+  }
+
+  /*triangle-nav*/
+  header.triangle-nav {
+    background-color: $medium-green;
+    width: 100vw;
+    height: 1em;
+    position: fixed;
+    z-index: 1;
+  }
+  nav.triangle-nav {
+    display: inline-block;
+    position: absolute;
+    top: 1em;
+    border-top: 3em solid $medium-green;
+    border-left: 50vw solid transparent;
+    border-right: 50vw solid transparent;
+  }
+  img.triangle-nav {
+    position: absolute;
+    top: 0;
+    height: 2.8em;
+    width: 2.8em;
+    margin-left: calc(50% - 1.4em);
+    margin-top: 0.7em;
+    margin-bottom: auto;
+  }
+
+  .no-nav {
+    width: 100vw;
+    height: 66vh;
+  }
+
+  footer {
+    width: 100vw;
+  }
+
+div {
+  color: white; }
+
+pre {
+  text-align: left;
+  margin-left: 5vw; }
+
+.this {
+  background-color: $amber;
+  color: $dark-grey; 
+}
+
+.this2 {
+  background-color: $magenta;
+  color: $light-grey; 
+}
+
+/*.this3 {
+  background-color: $medium-blue;
+  color: $light-grey; 
+}*/
+
+.this4 {
+  color: $dark-grey; 
+}
+
+.underline {
+  text-decoration: underline;
+  color: $amber; 
+}
+
+a.underline:hover {
+  color: $red; 
+}
+
+h2 {
+  /*color: $amber;*/ 
+}
+
+.underlin {
+  text-decoration: underline;
+}
+
+.full-screen-card {
+  background-color: $dark-grey;
+}
+
+h2, h3 {
+  color: $amber;
+}
+
+p {
+  color: $light-grey;
+}
+
+.hide {
+  display: none;
+}
+
+.important-text {
+  color: $dark-grey;
+  text-decoration: underline;
+}
+
+/*.banner {
+  width: 100vw;
+  min-height: 5em;
+  background-color: var(--amber);
+  margin-top: -1.1em;
+}*/
+
+nav a {
+  color: $light-grey !important;
+}
+
+.banner {
+  width: 100vw;
+  height: auto;
+  background-color: $amber;
+  margin-top: -1.1em;
+}
+
+  .card, .rounded-card, .square-card {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.font-img {
+  width: 90%;
+  padding-bottom: 1em;
+}

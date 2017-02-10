@@ -1,0 +1,27 @@
+/*Boilerplate. You can change fonts and default text/background colors here if needed */
+$roboto: 'Roboto', sans-serif;
+$light-grey: #F9F9F9;
+$dark-grey: #292929;
+* {
+	font-family: $roboto;
+}
+body {
+	margin: 0;
+	background-color: $light-grey;
+}
+
+h1, h2, h3, h4, h5, h6, a, p {
+	padding: 1em;
+	color: $dark-grey;
+}
+
+a {
+	text-decoration: none;
+		&:hover {
+			text-decoration: underline;
+	}
+}
+
+.hide {
+	display: none;
+}

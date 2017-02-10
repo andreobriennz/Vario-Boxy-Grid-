@@ -1,0 +1,46 @@
+body {
+	font-family: sans-serif;}
+
+nav {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	}
+
+nav a {
+	margin: 2rem 4rem;
+	text-decoration: none;
+	font-size: 5rem;}
+nav a:hover {
+	text-decoration: underline;}
+
+
+.hide {
+	display: none;
+}
+
+.block {
+	display: block;
+}
+
+
+/* Larger than mobile */
+@media (min-width: 400px) {}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+	nav {
+		flex-direction: row; 
+		justify-content: flex-end;}
+	nav a {
+		font-size: 1.6rem; }
+}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}
